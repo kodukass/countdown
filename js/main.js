@@ -2,16 +2,16 @@ const countdown = document.querySelector('.countdown');
 
 //launch date
 
-const launchD = new Date('June 1, 2022 13:00:00').getTime;
+const launchDate = new Date('June 1, 2023 13:00:00').getTime();
 
 //update every second
 
-const intvl =setInterval(() => {
+const intvl =setInterval(function() {
 //get todays date ms
-    const now = new Date.getTime();
+    const now = new Date().getTime();
 
     //distance from now to launch date
-    const distance = launchD - now;
+    const distance = launchDate - now;
 
     console.log(distance);
 
