@@ -1,79 +1,32 @@
-<!--headings-->
-# heading 1
-## heading 2
-### heading 3
-#### heading 4
+# README file for "Count Down" page 
 
-<!--italics-->
-*this text* is italic
+## Purpose
 
-_this text_ is italic
+<p>This page's purpose is to show, when will a collection of KoduArk fanart will come out (and how I coded a count down page.) </p>
 
-<!--bold-->
-**this text** is in bold
+## User personas
 
-__this text__ is italic
+<p>User, who will visit this website are:</p>
 
-<!--strikethrough-->
-~~this text~~ is stiped through
+* Fans of Dawn of SMP
+* KoduArk enjoyers
+* Artist, to see other people's artwork
 
-<!--horisonal line-->
----
-___
+## User stories
 
-<!--blockquote-->
->this is quote
+<p>Right now the only thing that the user can do is watch the countdown and have little sneak peaks from the artwork the page will feature.</p>
 
-<!--links-->
-[media](link)
+## Website structure
 
-[media](link "media")
+![Screenshot of the website](./img/funny_website.png)
 
-<!--ul-->
-* item 1
-* item 2
-* item 3
-    * nested item 1
-    * nested item 2
+<p>On the website there is:</p>
 
-<!--list-->
-1. item 1
-1. item 2
-1. item 3
+1. **The countdown** (specified in the green circle)
+1. **Website's name** (specified in the orange circle)
+1. **A little picture of a blushing man** (specified in the red circle)
+1. **Sneakpeek of the artwork** (on the very background)
 
-<!--inline code block-->
-<p>this is a paragraph</p>
+## Non-functional requirements
 
-<!-- image-->
-![markdown logo](pictureslink)
-
-<!--GITHUB MARKDOWN-->
-
-<!-- code block-->
-```bash
-    npm install
-
-    npm start
-```
-
-```javascript
-    function add() 
-    {
-        return num1 + num2;
-    }
-```
-```python
-    def add (num1, num2):
-        return num1 + num2
-```
-
-<!--tables-->
-| name     | email    |
-|----------|----------|
-| John Doe |j@d.com   |
-| Max Doe  |m@d.com   |
-
-<!--task list-->
-* [x] task 1
-* [x] task 2
-* [ ] task 3
+<p>This website will probably handle a few people and it will work in Edge and Chrome browser.</p>
